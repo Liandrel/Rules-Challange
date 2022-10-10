@@ -1,4 +1,4 @@
-﻿using RulesChall;
+﻿using RulesChall.Models;
 
 public class CompanyRules
 {

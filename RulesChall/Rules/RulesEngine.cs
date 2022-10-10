@@ -2,10 +2,10 @@
 {
     public List<Func<T, bool>> Rules { get; set; } = new();
 
-    public void ApplyRules(T testObject, List<Func<T, bool>> rules)
+    public void ApplyRules(T testObject)
     {
 
-        foreach (var rule in rules)
+        foreach (var rule in Rules)
         {
             rule(testObject);
         }
